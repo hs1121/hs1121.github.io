@@ -20,5 +20,5 @@ var x=button.id;
 }
  function pageRedirect(button) {
  var x=button.id;
-        window.location.replace( "https://hs1121.github.io/html/"+x+".html");
+        window.location.replace( "https://hs1121.github.io/html/page2.html");
     }
