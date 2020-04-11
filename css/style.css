@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #3a243b;
+}
+
+/* Header/Blog Title*/
+
+
+.ul {
+width:100%;
+height:100px;
+background-color:#3a243b;
+
+}
+
+.list {
+list-style: none;
+display: inline-block;
+}
+
+.hlink{
+
+text-decoration: none;
+font-size: 20px;
+font-family: times;
+color: white;
+padding:20px;
+}
+ a:hover {
+color:red;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+
+}
+
+/* Right column */
+.rightcolumn {
+
+  float: right;
+  width: 25%;
+  padding-left:20px;
+
+x
+}
+
+.img {
+  background-color: #0325c ;
+  width: 100%;
+  padding: 20px;
+  border-radius: 12px;
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.for-img{
+ width="728";
+ height="314";
+ border-radius: 12px;
+
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white ;
+   padding: 20px;
+   margin-top: 20px;
+    border-radius: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+width:100%;
+  padding: 20px 0px;
+  text-align: center;
+  background: #f4c2c2 ;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+*/
+#more0 {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+
+/* buttons */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ border-radius: 12px;
+}
+
+.button2{
+float: right;
+  padding: 5px 20px;
+   font-size: 16px;
+     cursor: pointer;
+       text-align: center;
+     background-color: black;
+      border: none;
+      color: white;
+       border-radius: 12px;
+
+}
+
+
+/* Heading Text */
+h2{
+color:green;
+font-size: 35px;
+font-family:Times New Roman;
+}
+
+.link-body{
+text-decoration: none;
+ font-size: 25px;
+  font-family: times;
+  color:blue;
+}
+.trending{
+color:black;
+text-decoration: none;
+}
+

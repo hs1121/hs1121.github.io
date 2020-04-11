@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Student's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\css\style.css">
+    <script src="..\javascript\javascript.js"></script>
+
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33%;
+}
+
+
+/* Content */
+.content {
+   background-color: #B19cD9 ;
+  padding: 20px;
+      border-radius: 12px;
+}
+
+
+
+</style>
+
+</head>
+<body >
+
+<div  class="ul">
+    <ul >
+        <li  class="list"><img src="..\photos\blog_title.png" alt="Grewal Blog" width="400" height="80"></li>
+        <li  class="list" style="padding-left:50%"><a class="hlink" href="page1.html">Home</a></li>
+        <li  class="list"><a class="hlink" href="Portfolio.html">Portfolio</a></li>
+        <li  class="list"><a class="hlink" href="Contact.html">Contact</a></li>
+        <li  class="list"><a class="hlink" href="Login.html">Login</a></li>
+        <hr style="color: white;float:left;width:100%">
+
+    </ul>
+</div>
+
+<div class="main">
+
+    <h1 style="padding-left:40%; color: white; font-size:50px;"> PORTFOLIO</h1>
+    <hr>
+
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <img src="..\photos\c++.png" alt="c++" style="width:100%">
+                <h3>Console Application in C++</h3>
+                <p>I have completed a mid level courses of c++ and designed many console applications like Bus ticket generator and snake game . I am able to use datafile handling and
+                    use of data structures to provide high level data management. </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="..\photos\quadcopter.jpg" alt="drone" style="width:100%">
+                <h3>Quad copter</h3>
+                <p>I have designed a fully functional Quad copter using arduino microcontroller . I have the knowledge of radio control , gyroscope , and also documentation of micro controller registers and other things as well.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <img src="..\photos\ultrasonic.jpg" alt="ultrasonic" style="width:100%">
+                <h3>My Work</h3>
+                <p>I have made a distance measuring device using ultrasonic sensor and Arduino . I am able to use the calculations and other logical methods to control different devices in am efficient way .</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <img src="..\photos\unreal.jpg" alt="unreal" style="width:100%">
+        <h3>Unreal Engine</h3>
+        <p>I have completed a beginner level of unreal engine 4 course . I am able to make a landscape and Character using unreal  </p>
+        <p>I have designed many layouts and landscapes. I have not made any fully functional UI but i an able to complete main functionalities </p>
+    </div>
+
+</div>
+
+</body>
+</html>

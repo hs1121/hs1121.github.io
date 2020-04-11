@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head xmlns: xmlns:>
+    <meta charset="UTF-8">
+    <title>A Student's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\css\style.css">
+    <script src="..\javascript\javascript.js"></script>
+
+
+    <style>
+input[type=text], input[type=password] {
+width: 50%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+  border-radius: 20px;
+}
+
+button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+
+button:hover {
+opacity: 0.8;
+}
+
+.imgcontainer {
+text-align: center;
+margin: 24px 0 12px 0;
+}
+
+img.avatar {
+width: 200px;
+border-radius: 50%;
+ height: 200px;
+}
+
+.container {
+padding: 16px;
+padding-left:35%;
+}
+
+</style>
+
+
+
+
+</head>
+<body >
+<div  class="ul">
+    <ul >
+        <li  class="list"><img src="..\photos\blog_title.png" alt="Grewal Blog" width="400" height="80"></li>
+        <li  class="list" style="padding-left:50%"><a class="hlink" href="page1.html">Home</a></li>
+        <li  class="list"><a class="hlink" href="Portfolio.html">Portfolio</a></li>
+        <li  class="list"><a class="hlink" href="Contact.html">Contact</a></li>
+        <li  class="list"><a class="hlink" href="Login.html">Login</a></li>
+        <hr style="color: white;float:left;width:100%">
+
+    </ul>
+</div>
+
+
+
+<h1 style="padding-left:45%; color: white;">Login Form</h1>
+
+<form >
+  <div class="imgcontainer">
+    <img src="..\photos\login.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+
+    <input  type="text" placeholder="Enter Username" name="uname" required>
+
+    <input  type="password" placeholder="Enter Password" name="psw" required>
+      <br>
+    <button style=" width:50%; " class="button" onclick="pageRedirect(this)" id="page0">Login</button>
+      <br><br>
+    <label style="color:white;">
+      <input type="checkbox" checked="checked" name="remember" > Remember me
+    </label >
+  </div>
+</form>
+</body>
+</html>
