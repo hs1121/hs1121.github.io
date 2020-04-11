@@ -5,20 +5,16 @@ padding: 0;
 
 }
 
-.WebContainer{
-    width: 100%;
-    height: auto;
-}
-.articles{
-    width:90%; /*Takes 90% width from WebContainer*/
-    height: auto;
-    margin: auto;
-} 
 
 body {
+  
   font-family: Arial;
   padding: 20px;
   background: #3a243b;
+  
+   width:auto;
+    height: auto;
+    margin: auto;
 }
 
 /* Header/Blog Title*/
