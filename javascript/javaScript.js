@@ -1,7 +1,5 @@
 
 
-var page=0;
-
 function myFunction(button) {
 var x=button.id;
   var dots = document.getElementById("dots"+x);
